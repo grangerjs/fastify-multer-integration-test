@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "777050a6-a051-4a18-bb53-0588f04a9d66",
+		"name": "multer_integration_postman_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "upload - readme example",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-length": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sample",
+							"type": "file",
+							"src": "/Users/jeremygranger/Documents/Developer/advocharge/fastify-multer-integration/sample.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/uploadFromMulterExample",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadFromMulterExample"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload - from server file (async/await)",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-length": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sample",
+							"type": "file",
+							"src": "/Users/jeremygranger/Documents/Developer/advocharge/fastify-multer-integration/sample.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/uploadFromServerFile",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadFromServerFile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload - using autoload",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-length": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sample",
+							"type": "file",
+							"src": "/Users/jeremygranger/Documents/Developer/advocharge/fastify-multer-integration/sample.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/uploadFromRoutePlugin",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"uploadFromRoutePlugin"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
