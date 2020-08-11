@@ -15,6 +15,6 @@ In the root directory of this project, there is a Postman collection that can be
 - `POST /uploadFromServerFile`
 - `POST /uploadFromRoutePlugin`
 
-You can run all three servers to at the same time to make it easier to test, although that is not recommended. At this point, I suspect I'm either incorrectly configuring `fastify-multer`, or Postman is not uploading the file properly. 
+You can run all three servers at the same time to make it easier to test, although that is not recommended. At this point, I suspect I'm either incorrectly configuring `fastify-multer`, or Postman is not uploading the file properly. 
 
 If you'd like to discuss, feel free to look me up on Twitter (`@jeremySGranger`), or email me at `jeremy.s.granger@gmail.com`. Thank you!!!
