@@ -9,7 +9,7 @@
 			"name": "upload - readme example",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
-					"content-length": true
+					"content-length": false
 				}
 			},
 			"request": {
@@ -42,7 +42,7 @@
 			"name": "upload - from server file (async/await)",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
-					"content-length": true
+					"content-length": false
 				}
 			},
 			"request": {
@@ -75,7 +75,7 @@
 			"name": "upload - using autoload",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
-					"content-length": true
+					"content-length": false
 				}
 			},
 			"request": {
